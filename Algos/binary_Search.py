@@ -6,7 +6,7 @@ def binary_search(array, item):
         guess = array[mid]
         if guess == item:
             return mid
-        if guess > item:
+        elif guess > item:
             high = mid -1
         else:
             low = mid + 1
